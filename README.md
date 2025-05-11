@@ -33,7 +33,7 @@
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/ListaDeTarefas/MinhasAnotacoes.git
+git clone https://github.com/naldobr-dev/MinhasAnotacoes.git
 ````
 
 2. Abra a solução no Visual Studio 2022+ com suporte a MAUI instalado.
