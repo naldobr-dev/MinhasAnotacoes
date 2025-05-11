@@ -1,4 +1,3 @@
-````markdown
 # 📝 Minhas Anotações - .NET MAUI
 
 **Minhas Anotações** é um aplicativo simples e direto para criar, editar e gerenciar anotações. Desenvolvido com [.NET MAUI](https://learn.microsoft.com/dotnet/maui/), o app funciona em Android, Windows e outras plataformas suportadas pelo MAUI.
