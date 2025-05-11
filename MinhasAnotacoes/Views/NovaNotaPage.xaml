@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MinhasAnotacoes.Views.NovaNotaPage"
+             Title="Nova Anotação">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="True" Command="{Binding BackCommand}" />
+    </Shell.BackButtonBehavior>
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="10">
+            <Entry x:Name="TituloEntry" Placeholder="Título" />
+            <Editor x:Name="TextoEditor" Placeholder="Escreva sua anotação..." AutoSize="TextChanges" />
+
+            <Button Text="Salvar" Clicked="Salvar_Clicked" />
+            <Button x:Name="ExcluirButton" Text="Excluir" IsVisible="False" TextColor="Red"
+                    Clicked="Excluir_Clicked" />
+
+            <Button x:Name="ShareButton" Text="Compartilhar" IsVisible="False"
+                    Clicked="Compartilhar_Clicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>
